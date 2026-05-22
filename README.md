@@ -39,10 +39,8 @@ The skill is intended for radar, target tracking, constrained estimation, and re
 Install with the Codex skill installer from this GitHub repository:
 
 ```bash
-python C:/Users/Administrator/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo <owner>/zgj-polish-en --path skills/zgj-polish-en
+python C:/Users/Administrator/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo howawu/zgj-polish-en --path skills/zgj-polish-en
 ```
-
-Replace `<owner>` with the GitHub account or organization that hosts the repository.
 
 After installation, restart Codex so the skill can be discovered.
 
