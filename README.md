@@ -11,6 +11,7 @@ The skill is intended for radar, target tracking, constrained estimation, and re
 - Uses explicit sentence-initial logical connectors such as `However`, `Therefore`, `To address this limitation`, `Then`, and `Moreover`.
 - Rewrites frequent `we + verb` constructions into passive or third-person forms when appropriate.
 - Checks sensitive fixed usages such as `be equal to`, `be incorporated into`, and `used to update only ...`.
+- Preserves fixed target-tracking terms such as `pseudo-measurement`, `base state vector`, `augmented state vector`, `range-Doppler (R-D)`, and `range-squared (RS) coordinate`.
 - Preserves technical meaning, notation, claims, assumptions, and comparison scope.
 
 ## Repository Layout
@@ -24,6 +25,7 @@ The skill is intended for radar, target tracking, constrained estimation, and re
 |       |   +-- openai.yaml
 |       +-- references/
 |           +-- style-guide.md
+|           +-- target-tracking-terms.md
 +-- scripts/
 |   +-- validate_skill.py
 +-- .github/
@@ -66,6 +68,7 @@ This skill is deliberately not a general "make it native-like" English polisher.
 - Prefer passive or third-person method statements over frequent first-person writing.
 - Prefer explicit logical connectors at the beginning of sentences.
 - Prefer technical precision and stable terminology over stylistic variation.
+- Prefer domain-specific target-tracking and pseudo-measurement terminology over broad synonyms.
 - Avoid changing scientific meaning for the sake of style.
 
 ## Validation
