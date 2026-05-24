@@ -1,4 +1,4 @@
 interface:
   display_name: "ZGJ Polish En"
-  short_description: "Polish English papers in Gongjian Zhou's strict style."
-  default_prompt: "Use $zgj-polish-en to polish this English paper paragraph in Gongjian Zhou's rigorous style."
+  short_description: "Polish English tracking/radar papers in Gongjian Zhou's strict style."
+  default_prompt: "Use $zgj-polish-en to polish this English tracking or radar paper paragraph in Gongjian Zhou's rigorous style."
